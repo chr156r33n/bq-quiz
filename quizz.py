@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import os
 
+# Set Font
+with open( "app\style.css" ) as css:
+    st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
+
 # Set page config for embedding
 st.set_page_config(layout="centered", initial_sidebar_state="collapsed")
 
