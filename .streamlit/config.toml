@@ -1,6 +1,6 @@
 [theme]
 primaryColor = "#fa7f6f"  # Button & radio button highlight color
-backgroundColor = "282832"  # App background
+backgroundColor = "#282832"  # App background
 secondaryBackgroundColor = "#2E3B55"  # Sidebar background
 textColor = "#FFFFFF"  # Text color
 font = "sans serif"
